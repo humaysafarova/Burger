@@ -17,16 +17,41 @@ section {
 header {
   padding: 20px 0;
 }
-header .imgbox {
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu .imgbox {
   width: 40px;
 }
-header nav a {
+header .menu nav a {
   color: #8c8999;
   font-size: 20px;
   margin-right: 30px;
 }
-header nav .home-color {
+header .menu nav .home-color {
   color: #74bebc;
+}
+header .menu .btn {
+  display: none;
+}
+@media (max-width: 991px) {
+  header .menu {
+    width: 100%;
+  }
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    border-radius: 2px;
+    background-color: #e8e8e8;
+  }
+  header .menu .btn .icon {
+    color: #303030;
+    margin-top: 2pxF;
+  }
 }
 
 #beautiful {
