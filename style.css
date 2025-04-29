@@ -173,6 +173,30 @@ header .menu .buttons .shop {
   width: 100%;
   margin-left: 20px;
 }
+@media (max-width: 992px) {
+  #thehome .textbox {
+    width: 400px;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    padding: 10px 25px;
+  }
+  #thehome .imgbox {
+    width: 80%;
+  }
+}
+@media (max-width: 430px) {
+  #thehome .textbox h1 {
+    font-size: 55px;
+  }
+  #thehome .textbox h5 {
+    font-size: 18px;
+  }
+  #thehome .textbox .btn {
+    padding: 10px 15px;
+  }
+}
+
 #works h1 {
   font-weight: 700;
   font-size: 60px;
