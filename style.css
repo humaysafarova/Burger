@@ -316,25 +316,53 @@ header .menu .buttons .shop {
   margin-top: 50px;
 }
 @media (max-width: 992px) {
+  #browse .box {
+    padding: 20px;
+  }
+  #browse .box .textbox h2 {
+    margin: 5px 0 10px;
+  }
   #browse .menu {
     flex-direction: column;
   }
 }
 @media (max-width: 768px) {
   #browse .menu {
-    justify-content: center;
     display: flex;
+    justify-content: center;
+  }
+  #browse .menu .btn {
+    margin-top: 15px;
   }
   #browse .box {
     flex-wrap: wrap;
   }
+  #browse .box .imgbox {
+    width: 130px;
+  }
+  #browse .box .textbox {
+    margin-left: 5px;
+  }
   #browse .box .textbox .minibox {
     flex-direction: column;
+  }
+  #browse .box .textbox .minibox h2 {
+    margin: 10px 0 15px;
+  }
+  #browse .box .textbox .add input {
+    width: 40px;
+  }
+  #browse .box .textbox .add .btn {
+    padding: 3px 10px;
   }
 }
 @media (max-width: 490px) {
   #browse .menu {
     flex-direction: column;
+  }
+  #browse .box .imgbox {
+    width: 400px;
+    border-radius: 15px;
   }
 }
 

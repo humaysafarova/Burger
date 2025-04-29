@@ -43,7 +43,6 @@
                 line-height: 1.2
                 color: #232f4285
             .add
-
                 input
                     border: 1px solid #e1e1e1
                     background-color: #e9e9e9
@@ -57,35 +56,38 @@
         margin-top: 50px
     @media ( max-width: 992px )
         .box
-           
+            padding: 20px
             .textbox
                 h2
-                   
+                   margin: 5px 0 10px
         .menu
             flex-direction: column
     @media ( max-width: 768px )
         .menu
-            justify-content: center
             display: flex
+            justify-content: center
             .btn
-               
+               margin-top: 15px
 
         .box
             flex-wrap: wrap
             .imgbox
-                
+                width: 130px
             .textbox
-             
+                margin-left: 5px
                 .minibox
                     flex-direction: column
                     h2
-                       
+                       margin: 10px 0 15px
                 .add
                     input
-                     
+                     width: 40px
+                    .btn
+                        padding: 3px 10px
     @media ( max-width: 490px )
         .menu
             flex-direction: column
         .box
             .imgbox
-                
+                width: 400px
+                border-radius: 15px
