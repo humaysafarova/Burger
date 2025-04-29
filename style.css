@@ -219,6 +219,34 @@ header .menu .buttons .shop {
   color: #676f8b;
   line-height: 1.3;
 }
+@media (max-width: 992px) {
+  #works .box .textbox {
+    padding: 10px 0 40px;
+  }
+  #works .box .imgbox {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  #works .box .imgbox {
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  #works .box .imgbox {
+    width: 95%;
+  }
+  #works .box .textbox {
+    text-align: center;
+  }
+  #works .box .textbox h2 {
+    font-size: 22px;
+  }
+  #works .box .textbox h4 {
+    font-size: 18px;
+  }
+}
+
 #browse .textbox {
   text-align: center;
 }
