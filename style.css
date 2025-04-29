@@ -434,6 +434,34 @@ header .menu .buttons .shop {
 #callour .imgbox {
   width: auto;
 }
+@media (max-width: 992px) {
+  #callour .textbox {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #callour .textbox h1, #callour .textbox h5 {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 440px) {
+  #callour .textbox {
+    text-align: center;
+  }
+  #callour .textbox h1 {
+    font-size: 55px;
+  }
+  #callour .textbox h5 {
+    font-size: 18px;
+  }
+  #callour .textbox .btn {
+    padding: 15px 40px;
+  }
+  #callour .imgbox {
+    width: 100%;
+  }
+}
+
 #support .textbox {
   padding: 0 80px;
 }
