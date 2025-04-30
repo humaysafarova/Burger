@@ -483,4 +483,12 @@ header .menu .buttons .shop {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 992px) {
+  #support .imgbox {
+    margin-bottom: 30px;
+  }
+  #support .textbox {
+    padding: 80px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
